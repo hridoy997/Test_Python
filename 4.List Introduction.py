@@ -12,6 +12,7 @@
 #  * List Membership Test
 #  * List Iteration
 #  * List Comprehension
+#  * List Addition is item
 
 # List Creation
 a_list = ['Bobita', 'Razzak', 'Joshim', 1, 5.6, True]
@@ -34,9 +35,6 @@ print(a_list[2:]) # slicing from 2 to end
 # List Length
 print(len(a_list))
 
-# List Delete
-# del a_list[0]
-# print(a_list)
 
 # List Concatenation
 b_list = ['Shabana', 'Jasim']
@@ -64,3 +62,13 @@ print(even_squares)
 # List Comprehension with condition
 odd_squares = [i * i for i in range(10) if i % 2 != 0]
 print(odd_squares)
+
+# List Addition is item
+item = 'Arman'
+a_list.append(item)
+print(a_list)
+
+
+# List Delete
+del a_list[0]
+print(a_list)
