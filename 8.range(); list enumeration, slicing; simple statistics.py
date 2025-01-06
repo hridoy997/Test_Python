@@ -5,8 +5,8 @@
 # list slicing
 
 # print 0 - 10 numbers, each in a new line 
-# for x in range(11, 1, -1):
-  # print(x)
+for x in range(11, 1, -1):
+  print(x)
 
 movie_stars = ['Bobita', 'Razzak', 'Shabana', 'Joshim']
 print(movie_stars)
